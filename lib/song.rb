@@ -42,7 +42,7 @@ class Song
     song = self.new
     song.name = name
     song.artist_name = artist
-    self.all << song
+    # self.all << song
     song
   end
 end
