@@ -42,10 +42,10 @@ class Song
     song = self.new
     song.name = name
     song.artist_name = artist
-    # self.all << song
     song
   end
   def self.new_from_filename(filename)
     song self.new_from_filename(filename)
+
   end
 end
